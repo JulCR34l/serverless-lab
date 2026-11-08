@@ -142,7 +142,7 @@ const questions = [
     answer: 1,
     explanation:
       'Static Web Apps crea un entorno de staging por Pull Request (el plan Free permite unos pocos simultáneos). Al cerrar el PR, el job "close" lo elimina.'
-  }
+  },
 
     {
     id: 'q11',
