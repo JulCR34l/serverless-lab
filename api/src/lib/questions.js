@@ -142,7 +142,20 @@ const questions = [
     answer: 1,
     explanation:
       'Static Web Apps crea un entorno de staging por Pull Request (el plan Free permite unos pocos simultáneos). Al cerrar el PR, el job "close" lo elimina.'
-  }
+  },
+
+    {
+    id: 'q11',
+    concept: 'Stateless',
+    text: '¿Dónde deberías guardar los certificados emitidos?',
+    options: [
+      'En una variable global de la función',
+      'En un servicio externo como Table Storage o Cosmos DB',
+      'En el localStorage del servidor'
+    ],
+    answer: 1,
+    explanation: 'Las instancias son efímeras; el estado duradero va en un servicio externo.'
+  },
 ];
 
 module.exports = { questions };
