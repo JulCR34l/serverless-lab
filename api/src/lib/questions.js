@@ -153,7 +153,7 @@ const questions = [
       'En un servicio externo como Table Storage o Cosmos DB',
       'En el localStorage del servidor'
     ],
-    answer: 9,
+    answer: 1,
     explanation: 'Las instancias son efímeras; el estado duradero va en un servicio externo.'
   },
 ];
